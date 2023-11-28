@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="labelRowHeight">40dp</dimen>
+    <dimen name="labelRowWidth">150dp</dimen>
+    <dimen name="textRowHeight">40dp</dimen>
+    <dimen name="textRowWidth">200dp</dimen>
+    <dimen name="buttonHeight">60dp</dimen>
+    <dimen name="buttonWidth">350dp</dimen>
+</resources>

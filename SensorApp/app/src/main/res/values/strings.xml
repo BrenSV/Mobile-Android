@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Acelerómetro</string>
+    <string name="test">Sensor Test</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="Coord">Coordenada Geográfica</string>
+    <string name="lat">Latitud</string>
+    <string name="lon">Longitud</string>
+    <string name="Graficar">Mostrar en Mapa</string>
+</resources>

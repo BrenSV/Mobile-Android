@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/mygroupedit"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnuCopiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/Copiar" />
+        <item
+            android:id="@+id/mnuCortar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/Cortar" />
+        <item
+            android:id="@+id/mnuPegar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/Pegar" />
+    </group>
+</menu>

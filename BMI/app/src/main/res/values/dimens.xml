@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="boton_largo">170dp</dimen>
+    <dimen name="boton_alto">60dp</dimen>
+    <dimen name="edit_largo">170dp</dimen>
+    <dimen name="edit_alto">50dp</dimen>
+    <dimen name="texto_largo">150dp</dimen>
+    <dimen name="texto_alto">60dp</dimen>
+
+</resources>

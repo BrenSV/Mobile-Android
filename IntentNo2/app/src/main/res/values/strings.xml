@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intents Explícitos</string>
+    <string name="title_activity_main">Intents 2</string>
+    <string name="Boton1">Arrancar Segunda Actividad</string>
+    <string name="Boton2">Galería de Imagenes</string>
+    <string name="title_activity_second">Otra Actividad</string>
+</resources>

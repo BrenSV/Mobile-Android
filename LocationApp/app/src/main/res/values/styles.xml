@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Labels" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FF0000FF</item>
+        <item name="android:layout_height">@dimen/labelRowHeight</item>
+        <item name="android:layout_width">@dimen/labelRowWidth</item>
+    </style>
+    <style name="etiquetas" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFF0000</item>
+        <item name="android:layout_height">@dimen/textRowHeight</item>
+        <item name="android:layout_width">@dimen/textRowWidth </item>
+    </style>
+    <style name="buttons" parent="Widget.AppCompat.Button">
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="botones" parent="Widget.AppCompat.Button">
+        <item name="android:layout_height">@dimen/boton_alto</item>
+        <item name="android:layout_width">@dimen/boton_largo</item>
+        <item name="android:buttonTint">@color/material_dynamic_neutral99</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

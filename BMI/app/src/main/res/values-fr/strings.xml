@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcuteur d\'IMC</string>
+    <string name="peso">Poids en kilogrammes:</string>
+    <string name="estatura">Taille en Cenitmétres:</string>
+    <string name="calcular">Calculez</string>
+    <string name="bmi">Votre IMC est de:</string>
+    <string name="copy">Copier</string>
+    <string name="cut">Couper</string>
+    <string name="paste">Pâte</string>
+</resources>

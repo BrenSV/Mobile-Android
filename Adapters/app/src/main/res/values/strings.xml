@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Adapters</string>
+    <string-array name="Capitales">
+        <item>Aguascalientes</item>
+        <item>Chetumal</item>
+        <item>Chihuahua</item>
+        <item>Chilpancingo de los Bravo</item>
+        <item>Ciudad de México</item>
+        <item>ciudad Victoria</item>
+        <item>Colima</item>
+        <item>Cuernavaca</item>
+        <item>Culiacán Rosales</item>
+        <item>Guadalajara</item>
+        <item>Guanajuato</item>
+        <item>Hermosillo</item>
+        <item>La Paz</item>
+        <item>Mérida</item>
+        <item>Mexicali</item>
+        <item>Monterrey</item>
+        <item>Morelia</item>
+        <item>Oaxaca de Juárez</item>
+        <item>Pachuca de Soto</item>
+        <item>Puebla de Zaragoza</item>
+        <item>Saltillo</item>
+        <item>San Francisco Campeche</item>
+        <item>San Luis Potosí</item>
+        <item>Santiago de Querétaro</item>
+        <item>Tepic</item>
+        <item>Toluca de Lerdo</item>
+        <item>Tuxtla Gutiérrez</item>
+        <item>Tlaxcala de Xicohténcatl</item>
+        <item>Victoria de Durango</item>
+        <item>Villahermosa</item>
+        <item>Xalapa de Enriquez</item>
+        <item>Zacatecas</item>
+    </string-array>
+</resources>

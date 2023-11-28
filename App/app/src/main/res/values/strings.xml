@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MobiCode</string>
+    <string name="Aceptar">Accept</string>
+    <string name="Cancelar">Cancel</string>
+    <string name="NewMessage">New Message</string>
+    <string name="De">From:</string>
+    <string name="Para">To:</string>
+    <string name="CC">"CC: "</string>
+    <string name="CCO">CCO:</string>
+    <string name="Asunto">Subject:</string>
+    <string name="Enviar">Send</string>
+</resources>

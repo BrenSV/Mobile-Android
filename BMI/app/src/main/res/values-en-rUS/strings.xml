@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator BMI</string>
+    <string name="peso">Your weight in kg:</string>
+    <string name="estatura">Your height in cm:</string>
+    <string name="calcular">Calculate</string>
+    <string name="bmi">Your BMI is: </string>
+    <string name="copy">Copy</string>
+    <string name="cut">Cut</string>
+    <string name="paste">Paste</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Menus</string>
+    <string name="opcion1">Opción de Menú 1</string>
+    <string name="opción2">Opción de Menu 2</string>
+    <string name="opción3">Opción de Menu 3</string>
+    <string name="check1">Check 1</string>
+    <string name="ccheck1">Chk 1</string>
+    <string name="check2">Check 2</string>
+    <string name="ccheck4">Chk 4</string>
+    <string name="ccheck6">Chk 6</string>+
+    <string name="opcion4">Opción 4</string>
+    <string name="opcion5">Opción 5</string>
+    <string name="opcion6">Opción 6</string>
+    <string name="opcion7">Menu 7</string>
+    <string name="submenu">Sub-Menú</string>
+    <string name="sub1">Sub-menu uno</string>
+    <string name="sub2">Sub-menu dos</string>
+    <string name="press">Presione para menú contextual</string>
+    <string name="Descripcion">Este programa muestra los diferentes tipos de menu que puede haber una aplicación.</string>
+    <string name="OpcionMenu">Seleccione una opción del menu</string>
+    <string name="Agregar">Capture el texto a agregar al menu y presione Agregar</string>
+    <string name="Agrega">Agregar al menu</string>
+    <string name="Cortar"> Cortar  </string>
+    <string name="Pegar"> Pegar  </string>
+    <string name="Copiar"> Copiar  </string>
+</resources>

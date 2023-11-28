@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuCopiar"
+        android:icon="@drawable/baseline_content_copy_24"
+        android:title="@string/copy"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mnuCortar"
+        android:icon="@drawable/baseline_content_cut_24"
+        android:title="@string/cut"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mnuPegar"
+        android:icon="@drawable/baseline_content_paste_24"
+        android:title="@string/paste"
+        app:showAsAction="ifRoom" />
+</menu>

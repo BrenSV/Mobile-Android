@@ -1,6 +1,11 @@
 <resources>
     <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
-        AIzaSyBZ2cErjYjwgX7gE7_YKvm5JnHoV_eV9Xs
+      YOUR_API_KEY
     </string>
+
     <string name="app_name"> Bottom Sheets</string>
+    <string name="sitios_reci">Sitios Recientes</string>
+    <string name="historial">Historial</string>
+    <string name="compartir">Compartir Ubicación</string>
+
 </resources>

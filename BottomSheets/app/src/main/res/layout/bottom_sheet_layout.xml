@@ -2,10 +2,12 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/bottomSheet"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white"
+    android:background="@color/darkerWhite"
+    android:gravity="center"
     android:orientation="vertical"
     app:behavior_hideable="true"
     app:behavior_peekHeight="20dp"
@@ -14,27 +16,143 @@
     <!-- Bottom Sheet Content -->
     <!-- Add your UI components here -->
     <!-- Drag handle for accessibility -->
-    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
-        android:id="@+id/drag_handle"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tableRow"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bottom Sheet Content" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bottom Sheet Content" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bottom Sheet Content" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bottom Sheet Content" />
+        <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+            android:id="@+id/drag_handle"
+            android:layout_width="47dp"
+            android:layout_height="27dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/cameraButton"
+            android:layout_width="49dp"
+            android:layout_height="48dp"
+            android:background="@drawable/camera_foreground"
+            android:src="@drawable/camera_shutter_button_fill"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drag_handle" />
+
+        <TextView
+            android:id="@+id/sitios_reci"
+            android:layout_width="113dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="296dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/sitios_reci"
+            android:textAppearance="@style/sitios_reci"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cameraButton" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="38dp"
+            android:src="@drawable/white_bubble"
+            app:layout_constraintBottom_toTopOf="@+id/compartirView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sitios_reci"
+            app:layout_constraintVertical_bias="0.084" />
+
+        <TextView
+            android:id="@+id/nomLugar"
+            android:layout_width="172dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="4dp"
+            android:text="Nombre de Lugar"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/nombre_lugar"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/descLugar"
+            android:layout_width="245.55dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="8dp"
+            android:gravity="top"
+            android:text="Descripcion"
+            android:textAppearance="@style/desc_lugar"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.876"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/nomLugar" />
+
+        <ImageView
+            android:id="@+id/historialView"
+            android:layout_width="343dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/gray_bubble"
+            app:layout_constraintBottom_toTopOf="@+id/compartirView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.28" />
+
+        <TextView
+            android:id="@+id/historial"
+            android:layout_width="58dp"
+            android:layout_height="18dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/historial"
+            android:textAppearance="@style/bubble_text"
+            app:layout_constraintBottom_toBottomOf="@+id/historialView"
+            app:layout_constraintEnd_toEndOf="@+id/historialView"
+            app:layout_constraintStart_toStartOf="@+id/historialView"
+            app:layout_constraintTop_toTopOf="@+id/historialView" />
+
+        <ImageView
+            android:id="@+id/compartirView"
+            android:layout_width="343dp"
+            android:layout_height="48dp"
+            android:background="@drawable/gray_bubble"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/compartir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:text="@string/compartir"
+            android:textAppearance="@style/bubble_text"
+            app:layout_constraintBottom_toBottomOf="@+id/compartirView"
+            app:layout_constraintEnd_toEndOf="@+id/compartirView"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/compartirView"
+            app:layout_constraintTop_toTopOf="@+id/compartirView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/darkerWhite"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="345dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- Add your TextViews or other components here -->
 

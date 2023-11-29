@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sitios_reci">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/textColorGray</item>
+    </style>
+
+    <style name="nombre_lugar">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/textColorBlacK</item>
+    </style>
+
+    <style name="desc_lugar">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/textColorGray</item>
+    </style>
+
+    <style name="bubble_text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+</resources>
